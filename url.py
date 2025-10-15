@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 import asyncio
 
-TOKEN = "8235434804:AAGpn0tI94Lmg402Hr8xlqUYQOjLMn9Kh-M"
+TOKEN = ""
 
 # Память для chat_id
 users = set()
@@ -42,3 +42,4 @@ if __name__ == "__main__":
         app.run_polling(),
         start_sending()
     ))
+
